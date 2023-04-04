@@ -9,7 +9,7 @@ export default function Header(){
                 <Link className="Link"href="/">Home</Link>
                 <Link className="Link" href="/about">About</Link>
                 <Link className="Link" href="/contact">Contact</Link>
-                <Link className="Link" href="/services">None</Link>
+                <a className="Link" href="/services">None</a>
                 <Link className="ButtonStore" href="/store">Store</Link>
             </nav>
         </header>
