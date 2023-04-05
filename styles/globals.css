@@ -1,14 +1,6 @@
 html, 
-body{
-    display: flex;
-    /* é uma propriedade CSS que define um container como um contêiner flexível, permitindo que seus itens internos sejam organizados em uma linha ou coluna, conforme necessário. */
-    justify-content: center;
-    /* é uma propriedade CSS que alinha os itens dentro de um contêiner flexível horizontalmente, centralizando-os ao longo do eixo principal (geralmente a direção da linha). */
-    align-items: center;
-    /* é uma propriedade CSS que alinha os itens dentro de um contêiner flexível verticalmente, centralizando-os ao longo do eixo transversal (geralmente a direção da coluna). */
-    min-height: 100vh;
-    
-}
+
+
 * {
     margin: 0;
     /* define a margem de todos os elementos como zero, removendo qualquer espaço em branco em torno dos elementos. */
@@ -24,17 +16,16 @@ body{
     /* define a fonte padrão para todos os elementos como "Arial", "Helvetica" ou outra fonte sans-serif. Se uma fonte especificada não estiver disponível no dispositivo do usuário, o navegador usará a próxima fonte na lista. */
 }
 
-header{
-   
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        padding: 20px 100px;
-        background-color:bisque;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 99;
+.BackdroundCake {
+    display: flex;
+    /* é uma propriedade CSS que define um container como um contêiner flexível, permitindo que seus itens internos sejam organizados em uma linha ou coluna, conforme necessário. */
+    justify-content: center;
+    /* é uma propriedade CSS que alinha os itens dentro de um contêiner flexível horizontalmente, centralizando-os ao longo do eixo principal (geralmente a direção da linha). */
+    align-items: center;
+    /* é uma propriedade CSS que alinha os itens dentro de um contêiner flexível verticalmente, centralizando-os ao longo do eixo transversal (geralmente a direção da coluna). */
+    min-height: 100vh;
+    background : url("../assets/untitled.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(0px);
 }
-    
