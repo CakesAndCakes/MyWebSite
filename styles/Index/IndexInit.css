@@ -1,0 +1,124 @@
+.BackdroundCake {
+    display: flex;
+    justify-content: center;
+    
+}
+.conteiner{
+    font-family: "Palace Script MT", cursive;
+    font-style: normal;
+    font-weight: 100; 
+}
+
+.BackdroundCake::before {
+    content: "";
+    position: absolute;
+    background: url('./untitled.png') no-repeat;
+    background-size: cover;
+    filter: blur(40px);
+    z-index: -1;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.Text1 {
+    
+    margin-top: 320px;
+    font-size: 150px;
+
+    color: rgb(233, 70, 116);
+    user-select: none;
+    top: 30px;
+}
+
+.Text1 span{
+    color: transparent;
+    font-size: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke: 4px rgb(233, 70, 116);
+    user-select: none;
+}
+/* Due to extreme demand we can't provide a free trial right now. Please /subscribe or try again tomorrow. */
+/* /imagine beautiful website cakes and candies, ui, ux, website, wine color, brown, pink */
+.Text2 {
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #a13030;
+    user-select: none;
+
+}
+
+.Text2 span{
+    color: transparent;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke: 4px #a13030;
+    user-select: none;
+
+}
+
+
+.Text1 {
+    margin-top: 320px;
+    font-size: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(233, 70, 116);
+    user-select: none;
+    top: 30px;
+}
+
+.Text1 span{
+    color: transparent;
+    font-size: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke: 4px rgb(233, 70, 116);
+    user-select: none;
+}
+
+.Text2 {
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #a13030;
+    user-select: none;
+
+}
+
+.Text2 span{
+    color: transparent;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke: 4px #a13030;
+    user-select: none;
+
+}
+
+
+.ButtonAbout{
+    position: relative;
+    background-color: transparent;
+    border: 3px solid #fff;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    color:#fff;
+    font-weight: 700;
+    transition: .3s;
+    text-decoration: none;
+    padding: 7px 45px;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-left: 169px;
+}
+
+
+.ButtonAbout:hover{
+    background:#fff;
+    color:rgb(233, 70, 116)
+}
+.MainIndex{
+    margin-top: 340px;
+    background-color: #a13030;
+    height: 900px;
+}

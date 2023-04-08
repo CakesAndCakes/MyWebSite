@@ -1,0 +1,118 @@
+.RODAPE{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: rgb(28,28,28);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(220,220,220); 
+    align-items: center;
+    user-select: none;
+}
+
+.Line{
+    background-color: rgb(220,220,220);
+    border-radius: 5px;
+    width: 400px;
+    height: 5px;
+    transition: .3s;
+
+}
+
+.RODAPE .Line:hover{
+    background-color:rgb(233, 70, 116);
+}
+
+.Empresa{
+    margin-top: 25px;
+    font-size: 36px;
+    margin-bottom: 5px;
+    user-select: none;
+}
+
+.Autor{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 20px;   
+}
+.Atualizacao{
+    margin-top: 15px;
+    font-weight: 700;
+}
+.Icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 19px;
+}
+
+.Icons a{
+    margin-top: 7px;
+    margin-left: 20px;
+    font-size: 28px;
+    color: rgb(220,220,220);
+    transition: .3s;
+}
+
+.Icons a:focus{
+    outline: none;
+}
+
+.Icons a:hover{
+    color:rgb(233, 70, 116);
+}
+
+.RODAPE .AutorName {
+    position: relative;
+    color: (220,220,220);
+    text-decoration: none;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.RODAPE .AutorName::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 4px;
+    background: rgb(233, 70, 116);
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.RODAPE .AutorName:hover::after{
+    
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.RODAPE .Empresa {
+    position: relative;
+    color: (220,220,220);
+    text-decoration: none;
+
+    transition: .5s;
+}
+
+.RODAPE .Empresa::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    background: rgb(233, 70, 116);
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.RODAPE .Empresa:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
